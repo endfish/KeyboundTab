@@ -1,0 +1,15 @@
+<Project Sdk="Dalamud.NET.Sdk/15.0.0">
+  <PropertyGroup>
+    <Version>1.0.0.0</Version>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <IsPackable>false</IsPackable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Use_DalamudPackager>false</Use_DalamudPackager>
+    <OutputPath>artifacts/build/</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Remove="Tests/**/*.cs" />
+    <Compile Remove="artifacts/**/*.cs" />
+    <Content Include="KeyboundTab.json" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+</Project>

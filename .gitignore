@@ -1,0 +1,12 @@
+bin/
+obj/
+artifacts/
+Tests/bin/
+Tests/obj/
+.vs/
+.idea/
+*.user
+*.suo
+*.jsonl
+docs/
+__pycache__/
